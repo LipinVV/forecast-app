@@ -12,3 +12,5 @@ Full-stack application based on ReactJS / NodeJS / Leaflet / Yandex API / SCSS.
 https://forecast-app-leaflet.herokuapp.com/
 
 #Important: you will need Yandex API key to start this app on your machine, use this link to obtain: https://yandex.ru/dev/weather/doc/dg/concepts/about.html, create .env file in the app and put inside, with name REACT_APP_API_KEY=<you_api_key>.
+
+![image](https://user-images.githubusercontent.com/64662301/169083447-1b9260d7-3106-4ffa-8db5-ee9878c27e6e.png)
