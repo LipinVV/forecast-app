@@ -30,7 +30,7 @@ export const Map = () => {
         const map = useMapEvents({
             async click (event) {
                 const response = fetch(
-                    `https://weather-app-leaflet.herokuapp.com/forecast?lat=` +
+                    `https://forecast-app-leaflet.herokuapp.com/forecast?lat=` +
                     `${event.latlng.lat}` +
                     `&lon=` +
                     `${event.latlng.lng}` +

@@ -8,7 +8,7 @@ const path = require("path");
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 app.use(cors({
-    origin: 'https://weather-app-leaflet.herokuapp.com/'
+    origin: 'https://forecast-app-leaflet.herokuapp.com/'
 }));
 
 app.get('/forecast', (req, response) => {
