@@ -18,7 +18,7 @@ app.get('/forecast', (req, response) => {
         headers: {
             'Content-Type': 'application/json',
             "Access-Control-Allow-Headers": "X-Yandex-API-Key",
-            "X-Yandex-API-Key": api_key
+            "X-Yandex-API-Key": 'c9b2df65-7526-4183-9ab3-c1ca740336f3'
         },
         uri: url,
         method: 'GET'
