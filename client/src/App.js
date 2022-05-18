@@ -1,5 +1,5 @@
-import './App.scss';
 import {Map} from "./Map";
+import './App.scss';
 
 function App() {
 

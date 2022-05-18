@@ -65,7 +65,7 @@ export const Map = () => {
                     const citiesToAdd = await bigCities.map(city => {
                         const coordinates = city.coords;
                         const response = fetch(
-                            `https://weather-app-leaflet.herokuapp.com/forecast?lat=` +
+                            `https://forecast-app-leaflet.herokuapp.com/forecast?lat=` +
                             `${coordinates.lat}` +
                             `&lon=` +
                             `${coordinates.lon}` +
