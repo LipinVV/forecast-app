@@ -12,7 +12,8 @@ app.use(cors({
 }));
 
 app.get('/forecast', (req, response) => {
-    const api_key = process.env.REACT_APP_API_KEY;
+    // const api_key = process.env.REACT_APP_API_KEY;
+    const api_key = 4e91f308-8e25-44fd-a108-bb8d5a6aac1b;
     const url = `https://api.weather.yandex.ru/v2/forecast?lat=${req.query.lat}&lon=${req.query.lon}`
     request({
         headers: {
